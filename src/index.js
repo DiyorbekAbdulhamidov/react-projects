@@ -1,15 +1,14 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./app";
-
+import ReactDOM from "react-dom";
+import Header from "./info/header/header";
+import Section1 from "./info/section1/section1";
 import "./main.scss";
 
-/**
- *  packages
- *  components
- *  images
- *  styles(css or sass)
- */
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+const root = document.getElementById("root");
+ReactDOM.render(
+  <>
+    <Header />
+    <Section1 />
+  </>,
+  root
+);
