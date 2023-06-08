@@ -1,0 +1,14 @@
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+
+  span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+  }
+}

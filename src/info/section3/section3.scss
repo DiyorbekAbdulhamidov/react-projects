@@ -1,0 +1,44 @@
+section{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 60px;
+  justify-content: space-between;
+
+
+  .infos{
+    position: relative;
+    top: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    p{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 80px;
+      color: #000000;
+    }
+
+    span{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: #8F95A5;
+    }
+
+    .nums{
+      display: flex;
+      gap: 50px;
+      text-align: center;
+    }
+  }
+  .bus{
+    position: relative;
+    top: 100px;
+  }
+}
