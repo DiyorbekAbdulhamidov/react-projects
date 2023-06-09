@@ -1,0 +1,121 @@
+.card1{
+  width: 351px;
+  height: 515px;
+  border-radius: 8px;
+  background: #2B405A;
+  border-radius: 6px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+
+  .basic{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 32px;
+    letter-spacing: 0.433333px;
+    text-transform: uppercase;
+    color: #E5E5E5;
+  }
+
+  .month{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.68px;
+    color: #FFFFFF;
+  }
+
+  .dolr{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -1.2px;
+    color: #FFFFFF;
+  }
+
+  .son{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+  }
+
+  .pl{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.4px;
+    color: #E5E5E5;
+  }
+
+  .ptichki{
+    display: flex;
+    gap:10px; 
+    flex-direction: column;
+  }
+
+  .oq{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.425px;
+    color: #FFFFFF;
+  }
+
+  .kul{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.425px;
+    color: #878B90;
+    text-decoration: line-through;
+  }
+
+  button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background: #258AFF;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1.06px;
+    color: #FFFFFF;
+    padding: 20px;
+  }
+
+  .fo{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: #878B90;
+    padding-top: 20px;
+  }
+}
