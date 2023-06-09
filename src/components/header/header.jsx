@@ -1,9 +1,9 @@
 import React from "react";
 import "../header/header.scss";
-import logo from "../../../assets/imgs/logo.svg";
-import facebook from "../../../assets/imgs/facebook.svg";
-import instagram from "../../../assets/imgs/instagram.svg";
-import twitter from "../../../assets/imgs/twitter.svg";
+import logo from "../../assets/imgs/logo.svg";
+import facebook from "../../assets/imgs/facebook.svg";
+import instagram from "../../assets/imgs/instagram.svg";
+import twitter from "../../assets/imgs/twitter.svg";
 
 
 export default class Header extends React.Component {

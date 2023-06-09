@@ -1,11 +1,11 @@
 import React from "react";
-import "../section1/section1.scss";
-import like from "../../../assets/imgs/like.svg";
-import recipes from "../../../assets/imgs/recipes.svg";
-import knife from "../../../assets/imgs/knife.svg";
-import time from "../../../assets/imgs/time.svg";
-import brat from "../../../assets/imgs/brat.svg";
-import play from "../../../assets/imgs/play.svg";
+import "./section1.scss";
+import like from "../../assets/imgs/like.svg";
+import recipes from "../../assets/imgs/recipes.svg";
+import knife from "../../assets/imgs/knife.svg";
+import time from "../../assets/imgs/time.svg";
+import brat from "../../assets/imgs/brat.svg";
+import play from "../../assets/imgs/play.svg";
 
 export default class Section1 extends React.Component {
   render() {
