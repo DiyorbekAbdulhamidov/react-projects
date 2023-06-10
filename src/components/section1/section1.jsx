@@ -23,7 +23,7 @@ export default class Section1 extends React.Component {
               <button><img src={time}alt="" /> 30 Minutes</button>
               <button><img src={knife} alt="" /> Chicken</button>
             </div>
-            <div className="last">
+            <div className="lastt">
               <div className="john">
                 <img src={brat} alt="" />
                 <div className="name">
