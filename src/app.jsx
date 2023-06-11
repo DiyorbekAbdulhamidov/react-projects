@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "./components/header/header";
+import Sidebar from "./components/sidebar/sidebar";
 
 export default class App extends React.Component {
   render() {
     return (
       <>
-        <Header></Header>
+        <Sidebar></Sidebar>
       </>
     );
   }

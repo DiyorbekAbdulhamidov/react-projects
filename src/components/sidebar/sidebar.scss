@@ -1,0 +1,54 @@
+.sidebar {
+  width: 290px;
+  height: 1321px;
+  background: #171B2D;
+  border-right: 1.5px solid #262835;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #55597D;
+  }
+
+  .main-menu,
+  .works,
+  .options {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .panels {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    p {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: -0.01em;
+      color: #ADB3CC;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+  }
+}
