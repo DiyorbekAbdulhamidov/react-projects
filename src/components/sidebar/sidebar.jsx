@@ -1,5 +1,4 @@
 import React from "react";
-import "./sidebar.scss";
 import P from "./p";
 import logo from "../../assets/imgs/logo.svg";
 import dashboard from "../../assets/imgs/dashboard.svg";
@@ -11,6 +10,8 @@ import bookmarks from "../../assets/imgs/bookmarks.svg";
 import conferences from "../../assets/imgs/confrences.svg";
 import settings from "../../assets/imgs/settings.svg";
 import about from "../../assets/imgs/about.svg";
+import "./sidebar.scss";
+
 
 export default class Sidebar extends React.Component {
   state = {
