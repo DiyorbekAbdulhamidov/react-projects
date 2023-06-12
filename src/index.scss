@@ -1,10 +1,64 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter';
 }
 
-body{
+body {
   background: #171B2D;
+}
+
+.bod {
+  display: flex;
+
+  .col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+    table {
+      margin-top: 70px;
+      color: white;
+      text-align: center;
+
+      thead tr th {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+        color: #55597D;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+
+      td {
+        padding-top: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: -0.02em;
+        color: #ADB3CC;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+
+      a {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: -0.02em;
+        color: #0931F5;
+      }
+    }
+  }
 }
